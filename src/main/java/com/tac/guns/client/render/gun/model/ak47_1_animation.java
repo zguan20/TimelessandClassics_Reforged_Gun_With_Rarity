@@ -70,6 +70,7 @@ public class ak47_1_animation implements IOverrideModel {
                 //{
                 //    overlayTmp = overlay;
                 //}
+                //
             /*
                 Hm, it seems like the getAttachment().stack() method chain does not actually grab the color of the specific attachment
                 I will be making a bug report as I don't think this behavior is correct and something wrong is on either side as this should be clearly possible
