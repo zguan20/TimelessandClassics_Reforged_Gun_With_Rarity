@@ -28,7 +28,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.network.PacketDistributor;
 import org.apache.logging.log4j.Level;
 import org.lwjgl.glfw.GLFW;
-import sun.nio.ch.Net;
 
 import java.util.UUID;
 

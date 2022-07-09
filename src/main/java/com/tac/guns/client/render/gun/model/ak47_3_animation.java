@@ -28,7 +28,7 @@ import net.minecraft.util.math.vector.Vector3f;
 /**
  * Author: Timeless Development, and associates.
  */
-public class ak47_1_animation implements IOverrideModel {
+public class ak47_3_animation implements IOverrideModel {
 
     @Override
     public void render(float v, ItemCameraTransforms.TransformType transformType, ItemStack stack, ItemStack parent, LivingEntity entity, MatrixStack matrices, IRenderTypeBuffer renderBuffer, int light, int overlay)
@@ -112,11 +112,11 @@ public class ak47_1_animation implements IOverrideModel {
             controller.applySpecialModelTransform(SpecialModels.AK47.getModel(), Ak47AnimationController.INDEX_MAGAZINE, transformType, matrices);
 //            if(EnchantmentHelper.getEnchantmentLevel(ModEnchantments.OVER_CAPACITY.get(), stack) > 0)
 //            {
-//                RenderUtil.renderModel(SpecialModels.AK47_EXTENDED_MAG.getModel(), stack, matrices, renderBuffer, light, overlay);
+                RenderUtil.renderModel(SpecialModels.AK47_EXTENDED_MAG.getModel(), stack, matrices, renderBuffer, light, overlay);
 //            }
 //            else
 //            {
-                RenderUtil.renderModel(SpecialModels.AK47_STANDARD_MAG.getModel(), stack, matrices, renderBuffer, light, overlay);
+//            RenderUtil.renderModel(SpecialModels.AK47_STANDARD_MAG.getModel(), stack, matrices, renderBuffer, light, overlay);
 //            }
         }
         matrices.pop();

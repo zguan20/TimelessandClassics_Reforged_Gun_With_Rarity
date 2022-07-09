@@ -1,5 +1,13 @@
 {
     "block.tac.workbench": "Workbench",
+    "item.tac.gun_money_1": "$1",
+    "item.tac.gun_money_2": "$2",
+    "item.tac.gun_money_5": "§5$5",
+    "item.tac.gun_money_10": "§b$10",
+    "item.tac.gun_money_20": "$20",
+    "item.tac.gun_money_50": "§3$50",
+    "item.tac.gun_money_100": "§4$100",
+    "info.tac.gun_money": "Currency use to trade",
     "item.tac.m1911": "M1911A1",
     "item.tac.m1894": "M1894",
     "item.tac.m1851": "M1851",

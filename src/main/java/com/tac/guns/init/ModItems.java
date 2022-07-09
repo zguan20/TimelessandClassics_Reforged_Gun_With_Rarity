@@ -23,6 +23,10 @@ public class ModItems
     public static final RegistryObject<Item> MOSIN = REGISTER.register("mosin", () -> new TimelessGunItem(properties -> properties.group(GunMod.SNIPER)));
     public static final RegistryObject<GunItem> AK47 = REGISTER.register("ak47", () -> new TimelessGunItem(properties -> properties.group(GunMod.RIFLE)));
     public static final RegistryObject<GunItem> AK47_1 = REGISTER.register("ak47_1", () -> new TimelessGunItem(properties -> properties.group(GunMod.RIFLE)));
+    public static final RegistryObject<GunItem> AK47_2 = REGISTER.register("ak47_2", () -> new TimelessGunItem(properties -> properties.group(GunMod.RIFLE)));
+    public static final RegistryObject<GunItem> AK47_3 = REGISTER.register("ak47_3", () -> new TimelessGunItem(properties -> properties.group(GunMod.RIFLE)));
+    public static final RegistryObject<GunItem> AK47_4 = REGISTER.register("ak47_4", () -> new TimelessGunItem(properties -> properties.group(GunMod.RIFLE)));
+    public static final RegistryObject<GunItem> AK47_5 = REGISTER.register("ak47_5", () -> new TimelessGunItem(properties -> properties.group(GunMod.RIFLE)));
     public static final RegistryObject<GunItem> M60 = REGISTER.register("m60", () -> new TimelessGunItem(properties -> properties.group(GunMod.HEAVY_MATERIAL)));
     public static final RegistryObject<Item> GLOCK_17 = REGISTER.register("glock_17", () -> new TimelessPistolGunItem(properties -> properties.group(GunMod.PISTOL)));
     public static final RegistryObject<Item> DP28 = REGISTER.register("dp28", () -> new TimelessGunItem(properties -> properties.group(GunMod.HEAVY_MATERIAL)));
@@ -159,6 +163,13 @@ public class ModItems
     public static final RegistryObject<Item> SPECIALISED_GRIP = REGISTER.register("specialised_grip", () -> new UnderBarrelItem(UnderBarrel.create(GunModifiers.HEAVY_GRIP_MODIFIER), new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
     /* Side rail Attachments */
     //public static final RegistryObject<Item> STANDARD_FLASHLIGHT = REGISTER.register("standard_flashlight", () -> new SideRailItem(SideRail.create(), new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
-
+    public static final RegistryObject<Item> GUN_MONEY_1 = REGISTER.register("gun_money_1", MoneyItem::new);
+    public static final RegistryObject<Item> GUN_MONEY_5 = REGISTER.register("gun_money_5", MoneyItem::new);
+    public static final RegistryObject<Item> GUN_MONEY_10 = REGISTER.register("gun_money_10", MoneyItem::new);
+    public static final RegistryObject<Item> GUN_MONEY_20 = REGISTER.register("gun_money_20", MoneyItem::new);
+    public static final RegistryObject<Item> GUN_MONEY_50 = REGISTER.register("gun_money_50", MoneyItem::new);
+    public static final RegistryObject<Item> GUN_MONEY_100 = REGISTER.register("gun_money_100", MoneyItem::new);
+    public static final RegistryObject<Item> TICKET_9MM = REGISTER.register("ticket_9mm", TicketItem::new);
+    public static final RegistryObject<Item> TICKET_762x39 = REGISTER.register("ticket_762x39", TicketItem::new);
    //public static final RegistryObject<Item> LIGHT_GRENADE = REGISTER.register("light_grenade", () ->  new GrenadeItem(new Item.Properties().group(GunMod.GROUP), 20 * 4, 1.1f));
 }
